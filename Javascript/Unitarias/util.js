@@ -8,6 +8,11 @@ exports.generateNumber = (name, phoneNumber) => {
   return `${name} (${phoneNumber}, móbil)`;
 };
 
+exports.generateMail = (name, mail) => {
+    // Regresa el texto de salida del correo
+    return `${name} (Tu correo es: ${mail})`;
+}
+
 exports.createElement = (type, text, className) => {
   // Crea un nuevo elemento HTML y lo muestra
   const newElement = document.createElement(type);
