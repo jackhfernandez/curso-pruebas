@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack ./app.js --mode development --watch",
-    "test": "echo \"Error: No hay texto escrito\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "js",
@@ -21,6 +21,7 @@
   ],
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.3.12"
   }

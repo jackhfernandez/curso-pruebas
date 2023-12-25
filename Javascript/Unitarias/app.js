@@ -7,6 +7,9 @@ const initApp = () => {
 
   const newPhoneButton = document.querySelector('#btnAddPhone');
   newPhoneButton.addEventListener('click', addPhone);
+
+  const newMailButton = document.querySelector('#btnAddMail');
+  newMailButton.addEventListener('click', addMail);
 };
 
 const addAge = () => {
