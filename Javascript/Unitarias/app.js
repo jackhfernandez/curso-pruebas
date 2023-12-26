@@ -13,7 +13,7 @@ const initApp = () => {
 };
 
 const addAge = () => {
-    const newUserNameInput = document.querySelector('input#name');
+    const newUserNameInput = document.querySelector('input#name1');
     const newUserAgeInput = document.querySelector('input#age');
 
     const outputText = checkAndGenerateAge(
@@ -26,14 +26,13 @@ const addAge = () => {
     }
 
     const userList = document.querySelector('.user-list');
-
     const element = createElement('li', outputText, 'user-item');
     userList.appendChild(element);
 };
 
 
 const addPhone = () => {
-    const newUserNameInput = document.querySelector('input#name');
+    const newUserNameInput = document.querySelector('input#name2');
     const newUserPhoneInput = document.querySelector('input#phone');
 
     const outputText = checkAndGeneratePhone(
@@ -51,7 +50,7 @@ const addPhone = () => {
 };
 
 const addMail = () => {
-    const newUserNameInput = document.querySelector('input#name');
+    const newUserNameInput = document.querySelector('input#name3');
     const newUserMailInput = document.querySelector('input#mail');
 
     const outputText = checkAndGenerateMail(
